@@ -18,8 +18,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "JD Wiki";
-$wgMetaNamespace = "JD_Wiki";
+$wgSitename = "TBG_Wiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -29,7 +28,7 @@ $wgMetaNamespace = "JD_Wiki";
 $wgScriptPath = "/mediawiki/mediawiki-1.29.1";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://192.168.1.155";
+$wgServer = "http://192.168.30.135";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -43,8 +42,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@192.168.1.155";
-$wgPasswordSender = "apache@192.168.1.155";
+$wgEmergencyContact = "apache@192.168.30.135";
+$wgPasswordSender = "apache@192.168.30.135";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -55,7 +54,7 @@ $wgDBtype = "mysql";
 $wgDBserver = "localhost";
 $wgDBname = "my_wiki";
 $wgDBuser = "root";
-$wgDBpassword = "luna143";
+$wgDBpassword = "megrez90mm";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -82,7 +81,7 @@ $wgUseInstantCommons = false;
 # Periodically send a pingback to https://www.mediawiki.org/ with basic data
 # about this MediaWiki instance. The Wikimedia Foundation shares this data
 # with MediaWiki developers to help guide future development efforts.
-$wgPingback = true;
+$wgPingback = false;
 
 ## If you use ImageMagick (or any other shell command) on a
 ## Linux server, this will need to be set to the name of an
@@ -97,14 +96,14 @@ $wgShellLocale = "en_US.utf8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "5ec12b89295e278dafa2a3e3a8d602e10bd392061000e784cdcbf3c235846c19";
+$wgSecretKey = "13d6cae23f0e97267c249c60b997fd454505dc6f64524c4a43e098b6cb787f97";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "4c994aa4922ee831";
+$wgUpgradeKey = "24a51063b9e8132a";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
